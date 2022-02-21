@@ -16,7 +16,6 @@ public class ImperialStarDestroyer extends Battleship {
     public String toString() {
         return super.toString() +  "ImperialStarDestroyer{" +
                 "numberoOfDecks=" + numberoOfDecks +
-
                 '}';
     }
 }
