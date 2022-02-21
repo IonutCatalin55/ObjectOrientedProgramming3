@@ -14,10 +14,9 @@ public class ImperialStarDestroyer extends Battleship {
 
     @Override
     public String toString() {
-        return "ImperialStarDestroyer{" +
+        return super.toString() +  "ImperialStarDestroyer{" +
                 "numberoOfDecks=" + numberoOfDecks +
-                ", battleshipname=" + getBattleshipName() +
-                ", battleshipCapacity=" + getBattleshipCapacity() +
+
                 '}';
     }
 }
