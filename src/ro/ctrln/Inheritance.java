@@ -16,6 +16,16 @@ public class Inheritance {
 
         System.out.println(imperialStarDestroyer);
 
+       // Starship starship = new Starship(); clasa abstracta   NU POATE FI INSTANTAIATA
+
+        XWingStarfighter xWingStarfighter = new XWingStarfighter();
+        xWingStarfighter.setStarshipDestination("Base");
+        System.out.println("Velocity is " + xWingStarfighter.computewarpSpeed(3,1000));
+        System.out.println(xWingStarfighter);
+
+
+
+
     }
 
 }
