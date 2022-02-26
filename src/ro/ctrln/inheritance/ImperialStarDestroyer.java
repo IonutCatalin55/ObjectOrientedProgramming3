@@ -1,4 +1,4 @@
-package ro.ctrln;
+package ro.ctrln.inheritance;
 
 public class ImperialStarDestroyer extends Battleship {
 
