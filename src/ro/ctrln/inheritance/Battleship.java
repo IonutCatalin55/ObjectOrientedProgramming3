@@ -43,4 +43,9 @@ public class Battleship {
     public int hashCode() {
         return Objects.hash(battleshipName, battleshipCapacity);
     }
+
+    public void escapeProcedure(int escapePods) {
+        System.out.println("Escape procedure initiated Battleship cu " + escapePods + " escape pods!");
+
+    }
 }
