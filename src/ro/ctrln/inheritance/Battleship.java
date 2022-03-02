@@ -4,6 +4,8 @@ import java.util.Objects;
 
 public class Battleship {
     // POJO == Plain Old Java Object
+    public static final int ID = 5;
+
     private String battleshipName;
     private int battleshipCapacity;
 

@@ -1,5 +1,7 @@
 package ro.ctrln.abstraction;
 
+import ro.ctrln.util.ProjectUtils;
+
 public abstract class Trooper { //sa adaugat cuvantul cheie abstract
 
     private int numberOfCapabilities;
@@ -13,6 +15,8 @@ public abstract class Trooper { //sa adaugat cuvantul cheie abstract
     }
 
     public void fight(String enamy){
+        // Aplicam metoda printmesage din projectUtil
+        ProjectUtils.printMesage("Luptam ");
         System.out.println("Fighting the enamy" + enamy);
     }
 
